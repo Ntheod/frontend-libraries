@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "minify:css": "cleancss -o dist/css/styles.min.css src/css/styles.css",
-    "minify:js": "terser src/js/scripts.js -o dist/js/scripts.min.js -c -m",
+    "minify:css": "cleancss -o dist/css/animations.min.css src/css/animations.css",
+    "minify:js": "terser src/js/animations.js -o dist/js/scripts.min.js -c -m",
     "build": "npm run minify:css && npm run minify:js"
   },
   "keywords": [],
